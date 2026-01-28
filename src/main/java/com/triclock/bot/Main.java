@@ -1,12 +1,13 @@
-package main.java.com.triclock.bot;
+package com.triclock.bot;
+
+import org.telegram.telegrambots.meta.TelegramBotsApi;
+import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 public class Main {
-    public static void main(String [] args) {
-
+    public static void main(String[] args) {
         try {
-            TelegramBotsApi tba = new TelegramBotsApi(DefaultBotSession.class);
-            tba.registerBot(new BotHandler());
-            System.out.println("El bot 3oClock se ha Activado correctamente");
+            TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
+            botsApi.registerBot(new BotHandler());
         } catch (Exception e) {
             e.printStackTrace();
         }
