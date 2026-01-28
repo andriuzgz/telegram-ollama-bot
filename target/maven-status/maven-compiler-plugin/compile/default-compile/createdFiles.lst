@@ -1,3 +1,7 @@
-com\triclock\bot\BotHandler.class
-com\triclock\bot\CommandManager.class
+com\triclock\bot\Evento.class
 com\triclock\bot\OllamaService.class
+com\triclock\bot\BotHandler.class
+com\triclock\bot\Utils.class
+com\triclock\bot\CommandManager.class
+com\triclock\bot\Main.class
+com\triclock\bot\ReminderService.class
