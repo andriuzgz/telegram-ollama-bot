@@ -1,4 +1,12 @@
-triclock-bot.env
+# Env files
 .env
+*.env
+
+# IDE
 .vscode/
+
+# GitHub config (opcional)
 .github/
+
+# Build
+/target/
